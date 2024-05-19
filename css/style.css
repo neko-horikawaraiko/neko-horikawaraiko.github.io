@@ -7246,6 +7246,9 @@ table.tablesorter td {
     -moz-opacity: 1;
   }
 }
+#l_main.no_sidebar {
+  max-width: 100%;
+}
 @media screen and (min-width: 2048px) {
   #l_main.no_sidebar {
     max-width: 100%;
@@ -7264,4 +7267,12 @@ table.tablesorter td {
 .article-desc {
   line-clamp: 5;
   -webkit-line-clamp: 5;
+}
+.self-video-frame {
+  max-width: 50%;
+}
+@media screen and (max-width: 850px) {
+  .self-video-frame {
+    max-width: 100%;
+  }
 }
